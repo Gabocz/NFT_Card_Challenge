@@ -1,22 +1,12 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/Gabocz/NFT_Card_Challenge
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -53,7 +43,7 @@ So, I learned how to do an overlay effect, I guess? I had never attempted it bef
 
 I will be definitely using the overlay technique in future projects. I am not sure if it was the perfect solution for this project, but I find the effect itself useful and appealing.
 
-I also struggled a lot with optimizing it for smaller screens and I am still not satisfied with the result. I will attempt to make it scale better by using relative measures like ems and rems.
+I also struggled a lot with optimizing it for smaller screens and I am still not satisfied with the result. I will attempt to make it scale better by using relative units like ems and rems.
 
 ### Useful resources
 
