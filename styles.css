@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  height: 700px;
+  width: 400px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#mainTheme {
+  height: 340px;
+  width: 340px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.main {
+  text-align: left;
+  margin: 0 30px;
+}
+
+.main h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.main h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.main p {
+  color: hsl(215, 51%, 70%);
+  font-size: 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.info span:nth-of-type(1) {
+  color: hsl(178, 100%, 50%);
+}
+
+.info span:nth-of-type(2) {
+  color: hsl(215, 51%, 70%);
+}
+
+.footer {
+  text-align: left;
+  margin: 0 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer img {
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+.footer p {
+  margin-left: 20px;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+.footer span {
+  color: white;
+}
+
+.footer span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#overlay {
+  height: 340px;
+  width: 340px;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  border-radius: 20px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.active {
+  display: block;
+}
+
+#eye {
+  position: absolute;
+  top: 140px;
+  left: 150px;
+}
+
+@media (max-width: 440px) {
+  .card {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    transform: scale(0.8);
+  }
+
+  #mainTheme {
+    transform: scale(0.95);
+    margin-top: 20px;
+  }
+
+  #overlay {
+    transform: scale(0.95);
+    top: 20px;
+    left: 20px;
+  }
+}
